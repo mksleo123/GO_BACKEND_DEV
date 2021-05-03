@@ -50,3 +50,19 @@ func main() {
 
 // log.Println(tag.ID)
 // log.Println(tag.Name)
+
+// with the exec we can insert query
+// sql := "INSERT INTO cities(name, population) VALUES ('Moscow', 12506000)"
+//     res, err := db.Exec(sql)
+
+//     if err != nil {
+//         panic(err.Error())
+//     }
+
+//     lastId, err := res.LastInsertId()
+
+//     if err != nil {
+//         log.Fatal(err)
+//     }
+
+//     fmt.Printf("The last inserted row id: %d\n", lastId)
