@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Path/to/model"
+	"GO_BACKEND/cryptocurrency_price_checker/model"
 )
 
 //Fetch is exported ...

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/path/to/client"
+	"GO_BACKEND/cryptocurrency_price_checker/client"
 )
 
 func main() {
